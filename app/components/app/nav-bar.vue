@@ -1,5 +1,5 @@
 <template>
-  <header class="flex flex-row">
+  <header class="flex flex-row gap-4">
     <AppSiteLogo />
     <AppSiteTitle />
   </header>
