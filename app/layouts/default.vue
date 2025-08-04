@@ -1,7 +1,5 @@
 <template>
-  <div class="flex min-h-screen flex-col">
-    <main>
-      <slot />
-    </main>
+  <div class="min-h-screen flex items-center justify-center px-4 py-12">
+    <slot />
   </div>
 </template>
