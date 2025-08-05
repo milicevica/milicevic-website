@@ -28,9 +28,8 @@ const { data: posts } = await useAsyncData(() => queryCollection("content").all(
           {{ String(index + 1).padStart(2, '0') }}
         </div>
         <!-- <div><img class="size-10 rounded-box" src="https://img.daisyui.com/images/profile/demo/1@94.webp"></div> -->
-        <div class="list-col-grow">
+        <div class="list-col-grow flex items-center">
           <NuxtLink :to="`/blog${post.path}`">
-            <div>Aleksandar Milicevic</div>
             <div class="text-xs uppercase font-semibold opacity-60">
               {{ post.title }}
             </div>
