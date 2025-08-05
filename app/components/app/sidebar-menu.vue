@@ -2,7 +2,7 @@
 const navItems = [
   { text: "About", link: "/" },
   { text: "Blog", link: "/blog" },
-  { text: "Random", link: "/random" },
+  // { text: "Random", link: "/random" },
 ];
 </script>
 
